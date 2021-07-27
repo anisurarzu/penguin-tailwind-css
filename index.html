@@ -13,7 +13,9 @@
   </head>
   <body>
     <header class="bg-yellow-100">
-      <section class="container mx-auto flex items-center justify-around py-12">
+      <section
+        class="container mx-auto md:flex items-center justify-around py-12 px-4"
+      >
         <div class="space-y-4">
           <h1 class="text-7xl font-bold">
             <span class="text-yellow-400">BE THE PENGUINS</span> <br />
@@ -29,7 +31,10 @@
               uppercase
               px-7
               py-4
-              bg-green-500
+              bg-gradient-to-r
+              from-green-500
+              to-green-800
+              hover:from-pink-500 hover:to-yellow-500
               rounded-xl
               font-medium
             "
@@ -56,7 +61,24 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <!-- Woman jacket section -->
+      <section class="container mx-auto px-12 mx-auto">
+        <h2 class="text-4xl uppercase font-bold text-gray-800">Woman Jacket</h2>
+        <!-- women jacket container -->
+        <div class="grid grid-cols-3 grid-7">
+          <div class="shadow-lg rounded-2xl">
+            <img src="images/jacket-1.png" alt="" />
+          </div>
+          <div>
+            <img src="images/jacket-2.png" alt="" />
+          </div>
+          <div>
+            <img src="images/jacket-3.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
